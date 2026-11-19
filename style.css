@@ -120,6 +120,8 @@ body:after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opaci
 .bandwidth-visual{width:min(100%,390px);margin-top:24px;padding:13px 15px;border:1px solid rgba(53,224,232,.2);background:linear-gradient(120deg,rgba(8,24,39,.88),rgba(8,24,39,.55));position:relative;overflow:hidden}
 .role-line{font-size:22px}
 @media(max-width:600px){.role-line{font-size:18px}}
+@media(max-width:600px){.orbit-two{width:min(210px,56vw);height:min(290px,77vw)}}
+@media(min-width:601px) and (max-width:760px){.site-header{height:68px}.menu-toggle{display:block}.nav{display:none;position:absolute;top:68px;left:0;right:0;background:#081727;padding:20px 28px;flex-direction:column;align-items:flex-start;border-bottom:1px solid var(--line)}.nav.open{display:flex}}
 .bandwidth-label,.bandwidth-legend{display:flex;justify-content:space-between;gap:12px;font:9px var(--mono);letter-spacing:.1em;color:#83a2bb}
 .bandwidth-label span:first-child,.bandwidth-legend span:first-child{color:var(--cyan)}
 .bandwidth-chart{height:48px;display:flex;align-items:flex-end;gap:5px;margin:12px 0 9px;padding:0 2px;background:repeating-linear-gradient(to bottom,transparent 0 15px,rgba(126,177,220,.08) 16px)}
