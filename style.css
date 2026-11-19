@@ -114,7 +114,7 @@ body:after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opaci
 .social-row a:hover{border-color:var(--cyan);box-shadow:0 0 14px rgba(53,224,232,.16)}
 .contact-links{justify-content:center}
 .contact-socials{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px}
-.contact-socials a{width:50px;height:50px;padding:0;display:grid;place-items:center;flex:0 0 50px;color:var(--cyan);border-radius:50%}
+.contact-socials a{width:50px;height:50px;padding:0;display:grid;place-items:center;justify-content:center;flex:0 0 50px;color:var(--cyan);border-radius:50%}
 .contact-socials a svg{width:19px;height:19px}
 @media(prefers-reduced-motion:reduce){.gallery-carousel.is-ready .gallery-item.is-active{animation:none}}
 .bandwidth-visual{width:min(100%,390px);margin-top:24px;padding:13px 15px;border:1px solid rgba(53,224,232,.2);background:linear-gradient(120deg,rgba(8,24,39,.88),rgba(8,24,39,.55));position:relative;overflow:hidden}
