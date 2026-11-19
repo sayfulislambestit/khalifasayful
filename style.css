@@ -112,6 +112,7 @@ body:after{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;opaci
 .social-row a{width:38px;height:38px;border:1px solid var(--line);border-radius:50%;display:grid;place-items:center;transition:.2s}
 .social-row a svg{width:17px;height:17px}
 .social-row a:hover{border-color:var(--cyan);box-shadow:0 0 14px rgba(53,224,232,.16)}
+.contact-links{justify-content:center}
 .contact-socials{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:12px}
 .contact-socials a{width:50px;height:50px;padding:0;display:grid;place-items:center;flex:0 0 50px;color:var(--cyan);border-radius:50%}
 .contact-socials a svg{width:19px;height:19px}
