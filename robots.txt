@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-GITHUB-USERNAME.github.io/khalifasayful/sitemap.xml
+Sitemap: https://sayfulislambestit.github.io/khalifasayful/sitemap.xml
